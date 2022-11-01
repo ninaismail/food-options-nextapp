@@ -9,10 +9,10 @@ function MainHeader() {
     setIsShown(current => !current);
   };
   return (
-    <nav class="bg-my-beige-500 px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+    <nav class="bg-my-beige-500 px-2 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
     <a href="#">
-        <Image src="/logo.png" width="64" height="64"class="mr-3 h-6 sm:h-9" alt="Food Options Logo" />
+        <Image src="/logo.png" width="74" height="73" alt="Food Options Logo" />
     </a>
     <div class="flex md:order-2">
     <a href="#" class="block py-2 pr-4 pl-3 hover:text-zinc-500">Ar</a>
