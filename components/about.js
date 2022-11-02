@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image'
 import Tabs from './about-tab'
 function HeroSection() {
@@ -15,7 +14,7 @@ function HeroSection() {
         </div>
         <div></div>
     </div>
-    <div class="grid lg:grid-cols-2 flex items-center">
+    <div class="grid lg:grid-cols-2 flex items-center mb-8">
        <div>
             <p class="text-left">Food Options was established in 2020 as a Saudi company that seeks to offer a unique 
             experience, pioneering in the food and beverage industry in the kingdom. 
@@ -26,7 +25,7 @@ function HeroSection() {
             <Image src="/chickenburger.jpg" width="597"height="537"alt="Chicken Burger" class="w-full shadow-lg"/>
        </div>
     </div>
-    <Tabs/>
+    <Tabs />
 </div>
   );
 }

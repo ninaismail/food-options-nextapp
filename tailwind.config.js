@@ -15,7 +15,8 @@ module.exports = {
           "700": "#eab991",
         }
       },
+      opacity: ['hover', 'active', 'visited']
     },
-  },
+  }, 
   plugins: [],
 }
