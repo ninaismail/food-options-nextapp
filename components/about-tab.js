@@ -67,7 +67,7 @@ function AboutTab() {
     </a>
   </li>
 </ul>
-<div class="tab-content h-10" id="tabs-tabContent">
+<div class="tab-content md:h-10" id="tabs-tabContent">
   <div className={openTab === 1 ? "block" : "hidden"} id="tabs-message" role="tabpanel" aria-labelledby="tabs-message-tab">
   Providing high-quality products by investing in the food and beverage industry.
   </div>

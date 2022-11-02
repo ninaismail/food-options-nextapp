@@ -6,7 +6,7 @@ function HeroSection() {
 <div class="relative top-0 left-0 flex items-center justify-start h-screen w-full">
   <div id="heroimg"class="relative bg-gray-900 opacity-75">
         <Image src="/heroimg.jpg" width="1920"height="1245"                          
-        layout="responsive"objectFit="cover"class="max-w-screen max-h-screen"alt="Food Options" />
+        layout="responsive"objectFit="cover"class="min-h-screen"alt="Food Options" />
   </div>
   <div class="absolute px-10 lg:px-24 z-10 text-left">
     <div class="mb-8">

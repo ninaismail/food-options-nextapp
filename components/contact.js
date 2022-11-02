@@ -5,9 +5,9 @@ function ContactSection() {
 <div class="relative top-0 left-0 text-my-beige-500 w-full h-full">
   <div>
     <Image src="/contactbg1.jpg" width="1920" height="519"                          
-    layout="responsive"objectFit="cover"alt="Food Options" />
+    layout="responsive" class="min-h-screen"alt="Food Options" />
   </div>
-  <div class="block absolute left-0 right-0 m-auto w-3/4 h-3/4 top-0 bottom-0 z-10 text-center px-10 py-12">
+  <div class="block absolute left-0 right-0 m-auto md:w-3/4 md:h-3/4 top-0 bottom-0 z-10 text-center px-10 py-12">
     <div>
         <h2 class="text-5xl font-bold mb-6">Contact Us</h2>
         <p class="mb-6 pb-2 lg:pb-0">
@@ -88,7 +88,7 @@ function ContactSection() {
       <div class="form-group mb-6">
         <button type="submit" class="
         block
-        w-1/4
+        mb:w-1/4
         mx-auto
         px-3
         py-1.5
