@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image'
-
+import Tabs from './about-tab'
 function HeroSection() {
   return (
 <div class="w-full bg-my-teal-500  px-10 py-12 text-white">
@@ -25,8 +25,8 @@ function HeroSection() {
         <div>
             <Image src="/chickenburger.jpg" width="597"height="537"alt="Chicken Burger" class="w-full shadow-lg"/>
        </div>
-
     </div>
+    <Tabs/>
 </div>
   );
 }
