@@ -10,7 +10,7 @@ function AboutTab() {
  list-none border-b-0 pl-0 mb-4 w-full" id="tabs-tab"
   role="tablist">
   <li role="presentation"class="md:w-1/4 w-1/2">
-    <a href="#tabs-tabContent" class="flex flex-col items-between justify-evenly 
+    <a class="flex flex-col items-between justify-evenly 
       tab-link
       block
       font-medium
@@ -25,7 +25,7 @@ function AboutTab() {
     </a>
   </li>
   <li role="presentation"class="md:w-1/4 w-1/2">
-    <a href="#tabs-tabContent" class="flex flex-col items-between justify-evenly
+    <a class="flex flex-col items-between justify-evenly
       tab-link
       block
       font-medium
@@ -39,7 +39,7 @@ function AboutTab() {
     </a>
   </li>  
   <li role="presentation"class="md:w-1/4 w-1/2">
-    <a href="#tabs-tabContent" class="flex flex-col items-between justify-evenly
+    <a class="flex flex-col items-between justify-evenly
       tab-link
       block
       font-medium
@@ -53,7 +53,7 @@ function AboutTab() {
     </a>
   </li>
   <li role="presentation"class="md:w-1/4 w-1/2">
-    <a href="#tabs-tabContent" class="flex flex-col items-between justify-evenly
+    <a class="flex flex-col items-between justify-evenly
       tab-link
       block
       font-medium
