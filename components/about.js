@@ -2,14 +2,14 @@ import Image from 'next/image'
 import Tabs from './about-tab'
 function HeroSection() {
   return (
-<div class="w-full bg-my-teal-500  px-10 py-12 text-white">
-    <div class="block mb-12 lg:mb-0 text-center flex justify-between items-center">
+<div class="w-full bg-my-teal-500 px-10 py-12 text-white">
+    <div class="text-my-beige-500 block mb-12 lg:mb-0 text-center flex justify-between items-center">
         <div>
             <Image src="/speech.png" width="40"height="40"alt="Speech"/> 
         </div>  
         <div>
             <h2 class="text-5xl font-bold mb-6">Enjoy the moment</h2>
-            <p class="text-gray-200 mb-6 pb-2 lg:pb-0">
+            <p class=" mb-6 pb-2 lg:pb-0">
             Lorem ipsum dolor sit amet,</p>
         </div>
         <div></div>
