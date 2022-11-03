@@ -4,16 +4,16 @@ import {AiOutlineInstagram,AiFillYoutube,AiFillLinkedin} from 'react-icons/ai'
 import {HiOutlineMailOpen,HiLocationMarker} from 'react-icons/hi';
 function Footer() {
     return ( 
-    <footer className="p-4 bg-my-beige-500 sm:py-6 sm:px-12">
-    <div className="md:flex md:justify-between mb-6">
-        <div className="p-4">
-            <Image src="/logo.png" width="200" height="200" alt="Food Options Logo" />
-            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-                <a href="#" className="text-gray-500 hover:text-gray-900">
+<footer className="p-4 bg-my-beige-500 lg:py-6 lg:px-12 sm:text-left text-center">
+    <div className="sm:flex block sm:justify-between mb-6">
+        <div className="p-4 sm:w-1/4 w-full h-full m-auto">
+            <Image src="/logo.png" width="200" height="200" alt="Food Options Logo" className="m-auto"/>
+            <div className="flex mt-4 space-x-6 justify-center">
+                <a href="#">
                     <AiOutlineInstagram color="white"fontSize="1.2em" />
                     <span className="sr-only">Instagram page</span>
                 </a>
-                <a href="#" className="text-gray-500 hover:text-gray-90">
+                <a href="#">
                     <AiFillYoutube color="white"fontSize="1.2em" />
                     <span className="sr-only">Youtube page</span>
                 </a>
@@ -23,8 +23,8 @@ function Footer() {
                 </a>
            </div>
         </div>
-        <div className="grid grid-cols-2 sm:gap-10 sm:w-8/12 sm:grid-cols-3">
-            <div>
+        <div className="flex md:flex-nowrap w-full sm:w-3/4 flex-wrap xs:justify-between">
+            <div className="w-full xs:w-1/2">
                 <ul className="text-gray-600">
                     <li class="text-center text-white bg-my-teal-500 hover:bg-my-teal-700 font-bold py-2 px-4 w-full">
                         <a href="https://flowbite.com/">About Us</a>
@@ -37,7 +37,7 @@ function Footer() {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="w-full xs:w-1/2">
                 <ul className="text-white">
                     <li className="mb-4 flex items-center justify-start">
                     <HiOutlineMailOpen fontSize="1.2em"/>
@@ -49,7 +49,7 @@ function Footer() {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="w-full">
                 <h2 className="mb-6 text-sm font-semibold text-gray-900">Subscribe to our newsletter</h2>
                 <ul className="text-gray-600 h-full">
                     <li>

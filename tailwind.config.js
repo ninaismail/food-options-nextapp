@@ -18,6 +18,10 @@ module.exports = {
       minHeight: {
         '700': '700px',
         '600': '600px',
+        '75': '75px',
+      },
+      screens: {
+        'xs': '480px'
       },
       opacity: ['hover', 'active', 'visited']
     },
