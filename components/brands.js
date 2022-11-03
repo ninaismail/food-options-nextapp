@@ -15,7 +15,7 @@ function BrandsSection() {
         <Image src="/partnership.png" width="40"height="40" alt="Partnership"/> 
         </div>  
         <div>
-            <h2 class="text-5xl font-bold mb-6 text-my-beige-500">Our Brands</h2>
+            <h2 class="xs:text-5xl text-3xl font-bold mb-6 text-my-beige-500">Our Brands</h2>
             <Image src="/pulet.png" width="276"height="89" alt="Pulet" class="block m-auto"/> 
         </div>
         <div></div>
