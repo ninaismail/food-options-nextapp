@@ -3,13 +3,14 @@ import Counter from './brands-counter'
 
 function BrandsSection() {
   return (
-<div class="relative top-0 left-0 w-full h-full">
-  <div class="relative bg-gray-900 opacity-75">
+    <div>
+<div class="relative top-0 left-0 w-full lg:h-full">
+  <div class="relative bg-gray-900 opacity-75 h-full">
         <Image src="/brandsbg.jpg" width="1921"height="755"                          
-        layout="responsive"objectFit="cover"class="min-h-screen"alt="Food Options" />
+        layout="responsive"objectFit="cover"alt="Food Options" />
   </div>
-  <div class="absolute left-0 right-0 mx-auto w-full h-3/4 top-0 z-10 text-center">
-    <div class="block w-full h-full m-auto px-10 py-12 text-center flex justify-between items-center">
+  <div class="absolute left-0 right-0 w-full h-full top-0 bottom-0 z-10
+    m-auto px-10 py-12 text-center flex justify-between items-center">
         <div>
         <Image src="/partnership.png" width="40"height="40" alt="Partnership"/> 
         </div>  
@@ -19,8 +20,8 @@ function BrandsSection() {
         </div>
         <div></div>
     </div>
-  </div>
-   <Counter/>
+  </div>   
+  <Counter/>
 </div>
   );
 }

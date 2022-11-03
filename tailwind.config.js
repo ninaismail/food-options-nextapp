@@ -15,6 +15,10 @@ module.exports = {
           "700": "#eab991",
         }
       },
+      minHeight: {
+        '700': '700px',
+        '600': '600px',
+      },
       opacity: ['hover', 'active', 'visited']
     },
   }, 

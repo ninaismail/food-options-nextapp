@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 function BrandsCounter() {
 
   return (
-    <div class="bg-my-beige-500 w-full h-1/4 px-10 py-12 w-full h-full m-auto text-center 
+    <div class="bg-my-beige-500 px-10 py-12 w-full h-full m-auto text-center 
     flex flex-wrap justify-evenly items-center">
         <div class="md:w-1/4 w-1/2">
             <h2 class="text-5xl font-bold">+<CountUp end={15867} duration={10}/></h2>

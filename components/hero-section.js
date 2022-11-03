@@ -4,19 +4,19 @@ import {BsArrowRight} from 'react-icons/bs'
 
 function HeroSection() {
   return (
-<div class="relative top-0 left-0 flex items-center justify-start h-screen w-full">
+<div class="relative top-0 left-0 flex items-center justify-start lg:h-screen w-full">
   <div id="heroimg"class="relative bg-gray-900 opacity-75">
         <Image src="/heroimg.jpg" width="1920"height="1245"                          
-        layout="responsive"objectFit="cover"class="min-h-screen"alt="Food Options" />
+        layout="responsive"objectFit="cover"alt="Food Options" />
   </div>
   <div class="absolute px-10 lg:px-24 z-10 text-left">
     <div class="mb-8">
-        <p class="mt-3 sm:mt-5 sm:max-w-xl md:mt-5 text-4xl font-bold">
+        <p class="mt-3 sm:mt-5 sm:max-w-xl md:mt-5 sm:text-4xl text-2xl font-bold">
             Good food choices are good investments.
         </p>
     </div>
     <div>
-        <a href="#" class="w-1/2 flex justify-center gaap-4 items-center px-8 py-3 shadow mt-2 font-medium text-my-beige-500 bg-my-teal-500 hover:bg-my-teal-700 focus:outline-none md:py-4 md:text-lg md:px-10">
+        <a href="#" class="w-1/2 flex justify-center gaap-4 items-center sm:px-8 sm:py-3 shadow mt-2 font-medium text-my-beige-500 bg-my-teal-500 hover:bg-my-teal-700 focus:outline-none md:py-4 md:text-lg md:px-10">
             <div>Learn More</div>&nbsp;&nbsp;<div><BsArrowRight/></div>
         </a>
     </div>
