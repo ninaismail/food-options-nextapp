@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image'
+import {BsArrowRight} from 'react-icons/bs'
 
 function HeroSection() {
   return (
@@ -15,8 +16,8 @@ function HeroSection() {
         </p>
     </div>
     <div>
-        <a href="#" class="w-full px-8 py-3 shadow mt-2 font-medium text-my-beige-500 bg-my-teal-500 hover:bg-my-teal-700 focus:outline-none md:py-4 md:text-lg md:px-10">
-            Learn More
+        <a href="#" class="w-1/2 flex justify-center gaap-4 items-center px-8 py-3 shadow mt-2 font-medium text-my-beige-500 bg-my-teal-500 hover:bg-my-teal-700 focus:outline-none md:py-4 md:text-lg md:px-10">
+            <div>Learn More</div>&nbsp;&nbsp;<div><BsArrowRight/></div>
         </a>
     </div>
     </div>
