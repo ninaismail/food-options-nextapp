@@ -85,14 +85,18 @@ function AboutTab() {
   To create an environment where guest satisfaction and delight are our highest priority. Food options’s restaurants and cafes will be the best choice in the local and international market.
   </div>
   <div className={openTab === 3 ? "block" : "hidden"} id="tabs-goals" role="tabpanel" aria-labelledby="tabs-goals-tab">
-  1. Continuous development of our products to provide added value to achieve the satisfaction of our guests. 
-  2. Creating Saudi concepts and brands that compete in the global market. 
-  3. Aspiring to create local and international partnerships in the field of food and beverages.
+  <ul>
+    <li>1. Continuous development of our products to provide added value to achieve the satisfaction of our guests.</li>
+    <li>2. Creating Saudi concepts and brands that compete in the global market.</li>
+    <li>3. Aspiring to create local and international partnerships in the field of food and beverages.</li>
+  </ul>
   </div>  
   <div className={openTab === 4 ? "block" : "hidden"} id="tabs-scope" role="tabpanel" aria-labelledby="tabs-scope-tab">
-  1.Creating varieties of brands characterized by creativity to be offered internationally. 
-  2.Management and operation of brands of the highest quality and with high professionalism. 
-  3.Providing consultations in establishing and developing restaurants and cafes by innovative means to achieve aspirations of partners and investors.   
+  <ul>
+    <li>1. Creating varieties of brands characterized by creativity to be offered internationally.</li>
+    <li>2. Management and operation of brands of the highest quality and with high professionalism. </li>
+    <li>3. Providing consultations in establishing and developing restaurants and cafes by innovative means to achieve aspirations of partners and investors.   </li>
+  </ul>
   </div>
 </div>
 </div>
