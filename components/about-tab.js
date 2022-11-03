@@ -3,6 +3,7 @@ import { useState } from "react";
 
 function AboutTab() {
   const [openTab, setOpenTab] = useState(1);
+  const [isActive, setIsActive] = useState(1);
 
   return (
 <div class="w-full bg-my-teal-500 bg-my-beige-500 px-10 py-12 text-black">
@@ -15,11 +16,13 @@ function AboutTab() {
       block
       font-medium
       text-xs
-      opacity-25 hover:opacity-100 active:opacity-100 visited:opacity-100
-      " id="tabs-message-tab" data-bs-toggle="pill" data-bs-target="#tabs-message" 
+      "   style={{
+        opacity: isActive == 1 ? '1' : '0.25',
+      }}
+      id="tabs-message-tab" data-bs-toggle="pill" data-bs-target="#tabs-message" 
       role="tab" aria-controls="tabs-message"
       aria-selected="true"
-      onClick={() => setOpenTab(1)}>
+      onClick={() => {setOpenTab(1); setIsActive(1)}}>
         <Image src="/1.png" width="50" height="50" alt="Message" class="mx-auto mb-15"/>
         <div class="text-center">Message</div>
     </a>
@@ -30,10 +33,12 @@ function AboutTab() {
       block
       font-medium
       text-xs
-      opacity-25 hover:opacity-100 active:opacity-100 visited:opacity-100
-     " id="tabs-vision-tab" data-bs-toggle="pill" data-bs-target="#tabs-vision" role="tab"
+      "   style={{
+        opacity: isActive == 2 ? '1' : '0.25',
+      }}
+     id="tabs-vision-tab" data-bs-toggle="pill" data-bs-target="#tabs-vision" role="tab"
       aria-controls="tabs-vision" aria-selected="false"
-      onClick={() => setOpenTab(2)}>
+      onClick={() => {setOpenTab(2); setIsActive(2)}}>
         <Image src="/2.png" width="50" height="50" alt="Vision" class="mx-auto mb-15"/>
         <div class="text-center">Vision</div>
     </a>
@@ -44,10 +49,12 @@ function AboutTab() {
       block
       font-medium
       text-xs
-      opacity-25 hover:opacity-100 active:opacity-100 visited:opacity-100
-     " id="tabs-goals-tab" data-bs-toggle="pill" data-bs-target="#tabs-goals" role="tab"
+      "   style={{
+        opacity: isActive == 3 ? '1' : '0.25',
+      }}
+     id="tabs-goals-tab" data-bs-toggle="pill" data-bs-target="#tabs-goals" role="tab"
       aria-controls="tabs-goals" aria-selected="false"
-      onClick={() => setOpenTab(3)}>
+      onClick={() => {setOpenTab(3); setIsActive(3)}}>
         <Image src="/3.png" width="50" height="50" alt="Goals" class="mx-auto mb-15"/>      
         <div class="text-center">Goals</div>  
     </a>
@@ -58,10 +65,13 @@ function AboutTab() {
       block
       font-medium
       text-xsvisited
-      opacity-25 hover:opacity-100 active:opacity-100 visited:opacity-100
-     " id="tabs-scope-tab" data-bs-toggle="pill" data-bs-target="#tabs-scope" role="tab"
+      hover:opacity-100
+     "   style={{
+      opacity: isActive == 4 ? '1' : '0.25',
+    }}
+     id="tabs-scope-tab" data-bs-toggle="pill" data-bs-target="#tabs-scope" role="tab"
       aria-controls="tabs-scope" aria-selected="false"
-      onClick={() => setOpenTab(4)}>
+      onClick={() => {setOpenTab(4); setIsActive(4)}}>
         <Image src="/4.png" width="50" height="50" alt="Scope of Work" class="mx-auto mb-15"/>
         <div class="text-center">Scope of Work</div>
     </a>
