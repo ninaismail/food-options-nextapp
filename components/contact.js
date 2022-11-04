@@ -7,7 +7,7 @@ function ContactSection() {
     layout="responsive"alt="Food Options" className='sm:min-h-700 xm:min-h-600 min-h-700'/>
   <div class="block absolute left-0 right-0 m-auto md:w-3/4 md:h-3/4 top-0 bottom-0 z-10 text-center px-10 py-12">
     <div>
-        <h2 class="sm:text-5xl text-3xl font-bold mb-6">Contact Us</h2>
+        <h2 class="lg:text-5xl md:text-4xl text-3xl font-bold mb-6">Contact Us</h2>
         <p class="mb-6 pb-2 lg:pb-0">
         how can we help you?</p>
     </div>
