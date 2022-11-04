@@ -9,16 +9,16 @@ function MainHeader() {
     setShowMe(!showMe);
   }
   return (
-    <nav class="bg-my-beige-500 px-2 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+    <nav class="bg-my-beige-500 sm:px-4 fixed w-full z-20 top-0 left-0">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
     <a href="#">
-        <Image src="/logo.png" width="74" height="73" alt="Food Options Logo" />
+        <Image src="/Group-3.png" width="151" height="77" alt="Food Options Logo" />
     </a>
     <div class="flex md:order-2">
     <a href="#" class="block py-2 pr-4 pl-3 hover:text-zinc-500">Ar</a>
         <button data-collapse-toggle="navbar-sticky" type="button" 
-        class="inline-flex items-center p-2 text-sm rounded-lg md:hidden 
-        focus:outline-none " aria-controls="navbar-sticky" 
+        class="inline-flex items-center p-2 md:hidden 
+        focus:outline-none" aria-controls="navbar-sticky" 
         aria-expanded="false"
         onClick={toggle}>
           <span class="sr-only">Open main menu</span>
@@ -31,7 +31,7 @@ function MainHeader() {
       class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" 
       id="navbar-sticky">
       <ul class="flex flex-col md:p-4 md:flex-row md:space-x-8
-      md:text-sm md:font-medium">
+      md:font-medium">
         <li>
           <a href="#" class="block py-2 pr-4 pl-3 hover:text-zinc-500">About Us</a>
         </li>
