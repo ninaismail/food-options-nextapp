@@ -5,7 +5,7 @@ function BrandsSection() {
   return (
     <div>
 <div class="relative top-0 left-0 w-full lg:h-full">
-  <div class="relative bg-gray-900 opacity-75 h-full">
+  <div class="relative  h-full">
         <Image src="/brandsbg.jpg" width="1921"height="755"                          
         layout="responsive"objectFit="cover"alt="Food Options"/>
   </div>

@@ -5,7 +5,7 @@ import {BsArrowRight} from 'react-icons/bs'
 function HeroSection() {
   return (
 <div class="relative top-0 left-0 flex items-center justify-start lg:h-screen w-full">
-  <div id="heroimg"class="relative bg-gray-900 opacity-75">
+  <div id="heroimg"class="relativ">
         <Image src="/heroimg.jpg" width="1920"height="1245"                          
         layout="responsive"objectFit="cover"alt="Food Options" />
   </div>
@@ -16,9 +16,9 @@ function HeroSection() {
         </p>
     </div>
     <div>
-        <a href="#" class="w-1/2 flex justify-center gaap-4 items-center sm:px-8 sm:py-3 
+        <a href="#" class="xs:w-1/2 flex justify-center gaap-4 items-center sm:px-8 sm:py-3 
         shadow mt-2 font-medium text-my-beige-500 bg-my-teal-500 hover:bg-my-teal-700 
-        focus:outline-none md:py-4 md:text-lg md:px-10 min-w-full">
+        focus:outline-none md:py-4 md:text-lg md:px-10">
             <div>Learn More</div>&nbsp;&nbsp;<div><BsArrowRight/></div>
         </a>
     </div>
