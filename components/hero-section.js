@@ -11,9 +11,9 @@ function HeroSection() {
   </div>
   <div class="absolute px-10 lg:px-24 z-10 text-left">
     <div class="mb-8">
-        <p class="mt-3 sm:mt-5 sm:max-w-xl sm:text-4xl xm:text-2xl text-m font-bold">
+        <h2 class="mt-3 sm:mt-5 sm:max-w-xl lg:text-5xl md:text-4xl text-3xl font-bold">
             Good food choices are good investments.
-        </p>
+        </h2>
     </div>
     <div>
         <a href="#" class="xs:w-1/2 flex justify-center gaap-4 items-center sm:px-8 sm:py-3 
