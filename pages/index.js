@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/layout/header'
+import Header from '../components/layout/main-header'
 import Footer from '../components/layout/footer'
 import HeroSection from '../components/hero-section'
 import About from '../components/about'
