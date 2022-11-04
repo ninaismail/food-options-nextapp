@@ -7,7 +7,7 @@ function Footer() {
 <footer className="p-4 bg-my-beige-500 lg:py-6 lg:px-12 sm:text-left text-center">
     <div className="sm:flex block sm:justify-between mb-6">
         <div className="p-4 sm:w-1/4 w-full h-full m-auto">
-            <Image src="/logo.png" width="200" height="200" alt="Food Options Logo" className="m-auto"/>
+        <Image src="/logo.png" width="216" height="110" alt="Food Options Logo" className="mx-auto"/>
             <div className="flex mt-4 space-x-6 justify-center">
                 <a href="#">
                     <AiOutlineInstagram color="white"fontSize="1.2em" />
