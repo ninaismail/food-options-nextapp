@@ -8,7 +8,7 @@ function HeroSection() {
             <Image src="/speech.png" width="40"height="40"alt="Speech"/> 
         </div>  
         <div>
-            <h2 class="xs:text-5xl text-3xl font-bold mb-6">Enjoy the moment</h2>
+            <h2 class="sm:text-5xl text-3xl font-bold mb-6">Enjoy the moment</h2>
             <p class=" mb-6 pb-2 lg:pb-0">
             Lorem ipsum dolor sit amet,</p>
         </div>

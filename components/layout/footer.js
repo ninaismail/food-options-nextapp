@@ -37,7 +37,7 @@ function Footer() {
                     </li>
                 </ul>
             </div>
-            <div className="w-full xs:w-1/2">
+            <div className="w-full xs:w-1/2 px-4">
                 <ul className="text-white">
                     <li className="mb-4 flex items-center justify-start">
                     <HiOutlineMailOpen fontSize="1.2em"/>
@@ -49,7 +49,7 @@ function Footer() {
                     </li>
                 </ul>
             </div>
-            <div className="w-full">
+            <div className="w-full md:w-1/2">
                 <h2 className="mb-6 text-sm font-semibold text-gray-900">Subscribe to our newsletter</h2>
                 <ul className="text-gray-600 h-full">
                     <li>
