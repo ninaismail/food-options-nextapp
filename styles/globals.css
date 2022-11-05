@@ -46,7 +46,7 @@ nav{
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #fecda5;
 }
 .nav__menu-bar{
   display: flex;
@@ -64,24 +64,26 @@ nav{
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 60px;
+  top:93.09px;
   width: 288px;
   row-gap: 24px;
-  right: -288px;
+  left: -288px;
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: #f1f1f1;
+  background-color: #fecda5;
 }
 .nav__menu-list.active{
-  right: 0;
+  left: 0;
 }
 .nav__link{
   font-size: 18px; 
   position: relative;
   transition: all 0.2s;
 }
-
+.logo{
+  margin-right:59%;
+}
 .nav__link:hover{
  font-weight: bold;
 }
@@ -114,7 +116,9 @@ nav{
     background-color: black;
     transition: all 0.2s;
   }
-  
+  .logo{
+    margin-right:0%;
+  }
   .nav__link:hover:before{
    width: 100%;
   }

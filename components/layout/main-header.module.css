@@ -1,40 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
-}
-a{
-  text-decoration: none;
-  color: inherit;
-}
-header{
+
+.header{
   position: sticky;
   z-index: 30;
   top: 0;
 }
-nav{
+.nav{
   display: flex;
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #fecda5;
 }
-.nav__menu-bar{
+.nav__menubar{
   display: flex;
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
 }
-.nav__menu-bar div{
+.nav__menubar div{
   width: 40px;
   height: 4px;
   background-color: black;
   border-radius: 2px;
 }
-.nav__menu-list{
+.nav__menulist{
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -43,12 +33,12 @@ nav{
   row-gap: 24px;
   right: -288px;
   padding: 24px 16px;
-  transition: all 0.2s;
+  transition: right 2s ease 0s; 
   min-height: calc(100vh - 60px);
-  background-color: #f1f1f1;
+  background-color: #fecda5;
 }
-.nav__menu-list.active{
-  right: 0;
+.active.nav__menulist {
+  right: 0; 
 }
 .nav__link{
   font-size: 18px; 
@@ -67,10 +57,10 @@ nav{
   align-items: center;
 }
 @media screen and (min-width: 768px) {
-  .nav__menu-bar{
+  .nav__menubar{
     display: none;
   }
-  .nav__menu-list{
+  .nav__menulist{
     position: unset;
     flex-direction: row;
     min-height: fit-content;

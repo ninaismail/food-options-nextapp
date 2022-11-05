@@ -13,13 +13,12 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className={`nav`}>
-        <Link href={"/"}>
+      <nav>
+        <Link href={"/"} className="logo">
           <Image src="/Group-3.png" width="121" height="61" alt="Food Options Logo" />
         </Link>
-        <div
+        <div className="nav__menu-bar"
           onClick={() => setNavActive(!navActive)}
-          className={`nav__menu-bar`}
         >
           <div></div>
           <div></div>
@@ -38,6 +37,7 @@ const Navbar = () => {
             </div>
           ))}
         </div>
+        <a href="#" class="block py-2 pr-4 pl-3 hover:text-zinc-500">Ar</a>
       </nav>
     </header>
   );
